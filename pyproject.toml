@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "genai-rag-langchain-ollama"
+name = "rag_langchain_ollama"
 version = "0.0.0"
 description = "An implementation of RAG with Ollama Embeddings & Model (Mistral) over sample TXT files via Langchain wrapped as a Gradio Application"
 authors = ["Supreeth Kunder <kundersupreeth@gmail.com>"]
