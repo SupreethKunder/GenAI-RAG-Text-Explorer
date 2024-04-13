@@ -1,5 +1,9 @@
 FROM python:3.9-slim-bullseye
 
+LABEL version="1.0" \
+    description="An RAG implementation with Ollama Embeddings & Model (Mistral) over sample TXT files via Langchain wrapped as a Gradio Application!" \
+    org.opencontainers.image.authors="kundersupreeth@gmail.com"
+
 RUN useradd --create-home devops
 USER devops
 WORKDIR /home/devops
