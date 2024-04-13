@@ -22,7 +22,7 @@ docker-deploy: do-build
 
 .PHONY: make-commits
 make-commits: docker-deploy
-	@git config --local user.email "github-actions[bot]@users.noreply.github.com"
-	@git config --local user.name "github-actions[bot]"
+	@git config --local user.email "kundersupreeth@gmail.com"
+	@git config --local user.name "SupreethKunder"
 	@git add pyproject.toml
 	@git push origin main -f
