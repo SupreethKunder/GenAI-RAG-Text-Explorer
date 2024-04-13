@@ -9,7 +9,7 @@ requirements:
 
 
 .PHONY: do-build
-do-build: run-tests
+do-build: requirements
 	@poetry build
 
 
