@@ -10,4 +10,4 @@ Note: Don't forget to replace the env template with actual environment variables
 
 ## Screenshot(s):
 
-[output](images/output.png)
+[output]([images/output.png](https://github.com/SupreethKunder/GenAI-RAG-Langchain-Ollama/blob/main/images/output.png))
