@@ -5,7 +5,6 @@ all: docker-deploy
 .PHONY: requirements
 requirements:
 	@echo "$(RELEASE_TYPE)"
-	@pip install poetry
 	@poetry install
 
 
