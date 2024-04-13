@@ -1,0 +1,6 @@
+# Exclude all files and directories
+*
+# !.env
+# Include the required wheel file
+!dist/*.whl
+!assets/*
