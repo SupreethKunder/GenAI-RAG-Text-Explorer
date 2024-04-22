@@ -1,4 +1,4 @@
-FROM python:3.9-slim-bullseye
+FROM python:3.12-slim-bullseye
 
 LABEL version="1.0" \
     description="An RAG implementation with Ollama Embeddings & Model (Mistral) over sample TXT files via Langchain wrapped as a Gradio Application!" \
