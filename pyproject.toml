@@ -10,12 +10,12 @@ packages = [{include = "src"}]
 [tool.poetry.dependencies]
 python = "^3.9"
 langchain = "^0.1.16"
-gradio = "^4.27.0"
-pymongo = {extras = ["srv"], version = "^4.6.3"}
+gradio = "^4.28.0"
+pymongo = {extras = ["srv"], version = "^4.7.0"}
 requests = "^2.31.0"
-pydantic = "^2.7.0"
+pydantic = "^2.7.1"
 pydantic-settings = "^2.2.1"
-llama-index = "^0.10.30"
+llama-index = "^0.10.32"
 pre-commit = "^3.7.0"
 
 [tool.poetry.scripts]
