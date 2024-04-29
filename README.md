@@ -1,4 +1,4 @@
-# GenAI RAG Langchain Ollama
+# GenAI RAG Text Explorer
 
 **An implementation of RAG with Ollama Embeddings & Model (Mistral) over sample TXT files via Langchain wrapped as a Gradio Application**
 
