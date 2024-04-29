@@ -786,13 +786,13 @@ tqdm = ["tqdm"]
 
 [[package]]
 name = "gradio"
-version = "4.28.0"
+version = "4.28.3"
 description = "Python library for easily interacting with trained machine learning models"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "gradio-4.28.0-py3-none-any.whl", hash = "sha256:fd347320f9a7d3a3fdd681a47c8f4f4c564639b5c532d94093d6c2c34d5958d8"},
-    {file = "gradio-4.28.0.tar.gz", hash = "sha256:020c2028b2a3e0f5f3174a5ce07c25437429d15bde4ba8d520ba4dd4fb45038d"},
+    {file = "gradio-4.28.3-py3-none-any.whl", hash = "sha256:1aa36f9858521d63dd0ca03575776f768c9ae2862615f6783c1fddd1118c8999"},
+    {file = "gradio-4.28.3.tar.gz", hash = "sha256:bb145c13a928c2343b71d0deef3f43f6caf4fe3188dcaac63a8121a7e3f2a8dd"},
 ]
 
 [package.dependencies]
@@ -1375,13 +1375,13 @@ requests = ">=2,<3"
 
 [[package]]
 name = "llama-index"
-version = "0.10.32"
+version = "0.10.33"
 description = "Interface between LLMs and your data"
 optional = false
 python-versions = "<4.0,>=3.8.1"
 files = [
-    {file = "llama_index-0.10.32-py3-none-any.whl", hash = "sha256:2a344f30120c3bb9f6c24c14056e3098288e7e2607ac18c5cabe2f1ec01f370c"},
-    {file = "llama_index-0.10.32.tar.gz", hash = "sha256:857f2e40fdf58d6be27826706f40028cdc8bdcb4b208295debb408fef89ae5ac"},
+    {file = "llama_index-0.10.33-py3-none-any.whl", hash = "sha256:d39b8f55491e51fdcf610e277580089a6e00f73669c9fd7dd78c5264e9c9c584"},
+    {file = "llama_index-0.10.33.tar.gz", hash = "sha256:d77ab29883b05cc57adfa50fa44ababf2b7bc62a988fb6ed0b6460179e67a10b"},
 ]
 
 [package.dependencies]
@@ -3710,4 +3710,4 @@ testing = ["big-O", "jaraco.functools", "jaraco.itertools", "more-itertools", "p
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9"
-content-hash = "d56be0b05f055098f66fb14009b3be945c1ebd5fef720b5df885100c7ad96afb"
+content-hash = "316bf18d8f6031e188936f8da3f17d6986ca38629d97141d16f4725b30073ab3"
