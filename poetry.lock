@@ -786,21 +786,21 @@ tqdm = ["tqdm"]
 
 [[package]]
 name = "gradio"
-version = "4.37.2"
+version = "4.38.1"
 description = "Python library for easily interacting with trained machine learning models"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "gradio-4.37.2-py3-none-any.whl", hash = "sha256:dede8c9429fe9d543f3516b0bb1fc3efa4c34a6ef34635cf8adf3f524a5d615a"},
-    {file = "gradio-4.37.2.tar.gz", hash = "sha256:94132754ad402c91fd12367c5a57fcced34004ba7b4b256cef96457968346a08"},
+    {file = "gradio-4.38.1-py3-none-any.whl", hash = "sha256:003c80fccb475869d76ddd9f8f1c7e85d14b0088a7eabc10558304930f33367b"},
+    {file = "gradio-4.38.1.tar.gz", hash = "sha256:8c24cb4e8e391b327e4c537e2ed3b57bcfb35d222bf786a657d27469bfc1667c"},
 ]
 
 [package.dependencies]
 aiofiles = ">=22.0,<24.0"
-altair = ">=4.2.0,<6.0"
+altair = ">=5.0,<6.0"
 fastapi = "*"
 ffmpy = "*"
-gradio-client = "1.0.2"
+gradio-client = "1.1.0"
 httpx = ">=0.24.1"
 huggingface-hub = ">=0.19.3"
 importlib-resources = ">=1.3,<7.0"
@@ -829,13 +829,13 @@ oauth = ["authlib", "itsdangerous"]
 
 [[package]]
 name = "gradio-client"
-version = "1.0.2"
+version = "1.1.0"
 description = "Python library for easily interacting with trained machine learning models"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "gradio_client-1.0.2-py3-none-any.whl", hash = "sha256:f0af3fc39e7459b0703e6b3e9d59b6f7db0f2353b3f5e162a01d94d3bfcd5d97"},
-    {file = "gradio_client-1.0.2.tar.gz", hash = "sha256:3c88136ff64eb9747342efdc706f378ce863396750b463f27e5e114e47052b68"},
+    {file = "gradio_client-1.1.0-py3-none-any.whl", hash = "sha256:5f117fa1163f5673f7f45a226919503a3c1747ee4bbfc6002c6a69386e6e5a57"},
+    {file = "gradio_client-1.1.0.tar.gz", hash = "sha256:823ef2b9ab9b869ffebc51c994efec1f58132795239fe1090ef7dd9cf474d1e4"},
 ]
 
 [package.dependencies]
@@ -1253,19 +1253,19 @@ files = [
 
 [[package]]
 name = "langchain"
-version = "0.2.7"
+version = "0.2.10"
 description = "Building applications with LLMs through composability"
 optional = false
 python-versions = "<4.0,>=3.8.1"
 files = [
-    {file = "langchain-0.2.7-py3-none-any.whl", hash = "sha256:98e79e0b9a60a9c740b44d5b0135c85f649219308f30d373cf5f10d0efe18b87"},
-    {file = "langchain-0.2.7.tar.gz", hash = "sha256:8742f363d2890854501e0075af04fcb470600f201dec251c9bd5841e1990e73d"},
+    {file = "langchain-0.2.10-py3-none-any.whl", hash = "sha256:b4fb58c7faf4f4999cfe3325474979a7121a1737dd101655a723a1d957ef0617"},
+    {file = "langchain-0.2.10.tar.gz", hash = "sha256:1f861c1b59ac9c91b02bb0fa58d3adad1c1d0686636872b5b357bbce3ce41d06"},
 ]
 
 [package.dependencies]
 aiohttp = ">=3.8.3,<4.0.0"
 async-timeout = {version = ">=4.0.0,<5.0.0", markers = "python_version < \"3.11\""}
-langchain-core = ">=0.2.12,<0.3.0"
+langchain-core = ">=0.2.22,<0.3.0"
 langchain-text-splitters = ">=0.2.0,<0.3.0"
 langsmith = ">=0.1.17,<0.2.0"
 numpy = [
@@ -1280,13 +1280,13 @@ tenacity = ">=8.1.0,<8.4.0 || >8.4.0,<9.0.0"
 
 [[package]]
 name = "langchain-core"
-version = "0.2.12"
+version = "0.2.22"
 description = "Building applications with LLMs through composability"
 optional = false
 python-versions = "<4.0,>=3.8.1"
 files = [
-    {file = "langchain_core-0.2.12-py3-none-any.whl", hash = "sha256:319d0989ffbb53b2365ba3ed8d1ae15ccdacf338163b7514155dba90cd16729f"},
-    {file = "langchain_core-0.2.12.tar.gz", hash = "sha256:a55f3ee8005c3b4a28f434d646b268acde86d88877b7ae8e077e3ad89605e7d3"},
+    {file = "langchain_core-0.2.22-py3-none-any.whl", hash = "sha256:7731a86440c0958b3186c003fb9b26b2d5a682a6344bda7bfb9174e2898f8b43"},
+    {file = "langchain_core-0.2.22.tar.gz", hash = "sha256:582d6f929a43b830139444e4124123cd415331ad62f25757b1406252958cdcac"},
 ]
 
 [package.dependencies]
@@ -1350,19 +1350,19 @@ pydantic = ">=1.10"
 
 [[package]]
 name = "llama-index"
-version = "0.10.53"
+version = "0.10.56"
 description = "Interface between LLMs and your data"
 optional = false
 python-versions = "<4.0,>=3.8.1"
 files = [
-    {file = "llama_index-0.10.53-py3-none-any.whl", hash = "sha256:c61566311ac2e825296efd0bb919d6460ea4ecd61e4d3e7371e72b0b53fefeac"},
-    {file = "llama_index-0.10.53.tar.gz", hash = "sha256:3823eaeabec20c8aecfcdf01686cb07446c235cd2447c06d914e900eec78644c"},
+    {file = "llama_index-0.10.56-py3-none-any.whl", hash = "sha256:febbbbbf623279911ce5fbeb4975e15a2c399a7bc98779bb4d90887e61830dda"},
+    {file = "llama_index-0.10.56.tar.gz", hash = "sha256:3056b9e188902a1138fc065b3b17d9f8628b52ee14545780b0b1e0fb8b6b9561"},
 ]
 
 [package.dependencies]
 llama-index-agent-openai = ">=0.1.4,<0.3.0"
 llama-index-cli = ">=0.1.2,<0.2.0"
-llama-index-core = "0.10.53.post1"
+llama-index-core = "0.10.56"
 llama-index-embeddings-openai = ">=0.1.5,<0.2.0"
 llama-index-indices-managed-llama-cloud = ">=0.2.0"
 llama-index-legacy = ">=0.9.48,<0.10.0"
@@ -1407,13 +1407,13 @@ llama-index-llms-openai = ">=0.1.1,<0.2.0"
 
 [[package]]
 name = "llama-index-core"
-version = "0.10.53.post1"
+version = "0.10.56"
 description = "Interface between LLMs and your data"
 optional = false
 python-versions = "<4.0,>=3.8.1"
 files = [
-    {file = "llama_index_core-0.10.53.post1-py3-none-any.whl", hash = "sha256:565d0967dd8f05456c66f5aca6ee6ee3dbc5645b6a55c81957f776ff029d6a99"},
-    {file = "llama_index_core-0.10.53.post1.tar.gz", hash = "sha256:6219a737b66c887b406814b0d9db6e24addd35f3136ffb6a879e54ac3f133406"},
+    {file = "llama_index_core-0.10.56-py3-none-any.whl", hash = "sha256:9f9e217731c94c60c4dc2163c2c3e0c17f9b2445d6d2ba008bb624545d75d924"},
+    {file = "llama_index_core-0.10.56.tar.gz", hash = "sha256:a646ba3f42329c3160fa3535adb6b9a99bb34fc60e027dfd861fa248a93d90c6"},
 ]
 
 [package.dependencies]
@@ -1423,7 +1423,6 @@ deprecated = ">=1.2.9.3"
 dirtyjson = ">=1.0.8,<2.0.0"
 fsspec = ">=2023.5.0"
 httpx = "*"
-llama-cloud = ">=0.0.6,<0.0.7"
 nest-asyncio = ">=1.5.8,<2.0.0"
 networkx = ">=3.0"
 nltk = ">=3.8.1,<4.0.0"
@@ -3666,4 +3665,4 @@ testing = ["big-O", "jaraco.functools", "jaraco.itertools", "more-itertools", "p
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9"
-content-hash = "299e2345e186552a79818e3b31507d86246af130d9e73993504cf5f38c6006ec"
+content-hash = "9c240d6473249ad73bf9d63cfff492d508a197caba6a03423f4277a79d589000"
