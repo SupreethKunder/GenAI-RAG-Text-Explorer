@@ -1,4 +1,4 @@
-FROM python:3.13.0b2-slim
+FROM python:3.13.0b4-slim
 
 LABEL version="1.0" \
     description="An RAG implementation with Ollama Embeddings & Model (Mistral) over sample TXT files via Langchain wrapped as a Gradio Application!" \
